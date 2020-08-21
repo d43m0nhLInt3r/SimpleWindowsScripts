@@ -1,0 +1,9 @@
+echo "\\\---Regedit Installer---///"
+REGEDIT.EXE  /S  "%~dp0\W10FolderDescriptions.Hide3Dobjects.reg"
+REGEDIT.EXE  /S  "%~dp0\W10FolderDescriptions.HideDesktop.reg"
+REGEDIT.EXE  /S  "%~dp0\W10FolderDescriptions.HideDokuments.reg"
+REGEDIT.EXE  /S  "%~dp0\W10FolderDescriptions.HideDownloads.reg"
+REGEDIT.EXE  /S  "%~dp0\W10FolderDescriptions.HideMusic.reg"
+REGEDIT.EXE  /S  "%~dp0\W10FolderDescriptions.HidePictures.reg"
+REGEDIT.EXE  /S  "%~dp0\W10FolderDescriptions.HideVideo.reg"
+timeout /t 10
